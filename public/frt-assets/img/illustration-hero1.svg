@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="9.38007in" height="6.39802in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 9.16212 6.24935"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M0 0.00116135l9.16212 0 0 6.24819 -9.16212 0 0 -6.24819z"/>
+    </clipPath>
+    <clipPath id="id1">
+     <path d="M0.632463 0l8.01977 0c0.163493,0 0.297256,0.136689 0.297256,0.303762l0 4.99957c0,0.167073 -0.133763,0.303762 -0.297256,0.303762l-8.01977 0c-0.163493,0 -0.297256,-0.136689 -0.297256,-0.303762l0 -4.99957c0,-0.167073 0.133763,-0.303762 0.297256,-0.303762z"/>
+    </clipPath>
+     <clipPath id="id2">
+      <path d="M0.632463 0l8.01977 0c0.163493,0 0.297256,0.136689 0.297256,0.303762l0 4.99957c0,0.167073 -0.133763,0.303762 -0.297256,0.303762l-8.01977 0c-0.163493,0 -0.297256,-0.136689 -0.297256,-0.303762l0 -4.99957c0,-0.167073 0.133763,-0.303762 0.297256,-0.303762z"/>
+     </clipPath>
+     <clipPath id="id3">
+      <path d="M0.632463 0l8.01977 0c0.163493,0 0.297256,0.136689 0.297256,0.303762l0 4.99957c0,0.167073 -0.133763,0.303762 -0.297256,0.303762l-8.01977 0c-0.163493,0 -0.297256,-0.136689 -0.297256,-0.303762l0 -4.99957c0,-0.167073 0.133763,-0.303762 0.297256,-0.303762z"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_109768120">
+   <g style="clip-path:url(#id0)">
+    <image id="_92678560" transform="matrix(1 0 0 1 -4.69004 3.44581)" x="4.69004" y="-3.44464" width="9.16212" height="6.24819" xlink:href="illustration-hero1_Images\illustration-hero1_ImgID1.png"/>
+   </g>
+   <g>
+   </g>
+   <g style="clip-path:url(#id1)">
+    <g id="_92752800">
+    </g>
+    <g style="clip-path:url(#id2)">
+     <image id="_94684112" transform="matrix(1 0 0 1 -7.60947 7.66109)" x="4.69004" y="-12.4209" width="15.2212" height="15.2245" xlink:href="illustration-hero1_Images\illustration-hero1_ImgID2.png"/>
+    </g>
+    <g style="clip-path:url(#id3)">
+    </g>
+   </g>
+   <path class="fil0" d="M0.632463 0l8.01977 0c0.163493,0 0.297256,0.136689 0.297256,0.303762l0 4.99957c0,0.167073 -0.133763,0.303762 -0.297256,0.303762l-8.01977 0c-0.163493,0 -0.297256,-0.136689 -0.297256,-0.303762l0 -4.99957c0,-0.167073 0.133763,-0.303762 0.297256,-0.303762z"/>
+  </g>
+ </g>
+</svg>
