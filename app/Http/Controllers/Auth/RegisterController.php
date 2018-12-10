@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Company;
 use App\User;
+use App\Profile;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Validation\Rule;
 
 class RegisterController extends Controller
 {
@@ -28,7 +31,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/profile';
 
     /**
      * Create a new controller instance.
@@ -49,10 +52,22 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'fullname' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
+            'country' => ['required', 'integer', 'exists:countries,id'],
+            'companyName' => ['required', 'min:3', 'max:25', 'unique:companies,name'],
+            'address' => ['required', 'min:8', 'max:255'],
+            'city' => ['required', 'max:255'],
+            'industry' => ['required'],
+            'tnc' => ['required'],
+            'usrChoice' => ['required', Rule::in(['business', 'financier'])]
         ]);
+    }
+
+    public function getUserType()
+    {
+        return view('auth.user-type');
     }
 
     /**
@@ -63,10 +78,27 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
+        $user = User::create([
             'email' => $data['email'],
-            'password' => Hash::make($data['password']),
+            'activation_code' => sha1('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'),
+            'password' => Hash::make($data['password'])
         ]);
+
+        $company = new Company();
+        $company->user_id = $user->id;
+        $company->industry_id = $data['industry'];
+        $company->country_id = $data['country'];
+        $company->type = $data['usrChoice'];
+        $company->city = $data['city'];
+        $company->address = $data['address'];
+        $company->name = $data['companyName'];
+        $company->avatar = "default.jpg";
+        $company->save();
+
+        $profile = new Profile();
+        $profile->user_id = $user->id;
+        $profile->fullname = $data['fullname'];
+        $profile->save();
+        return $user;
     }
 }

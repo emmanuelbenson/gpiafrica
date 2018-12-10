@@ -17,4 +17,20 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/pre-register', 'Auth\RegisterController@getUserType');
+
+Route::get('/home', 'HomeController@search')->name('home');
+Route::get('/home/profile/{company}', 'CompanyController@profile')->name('company.profile');
+
+
+Route::get('/profile', 'ProfileController@show');
+Route::get('/profile/edit-info', 'CompanyController@editInfo')->name('company.profile.info.edit');
+Route::put('/profile/update-info', 'CompanyController@updateInfo')->name('company.profile.info.update');
+Route::get('/profile/products', 'CompanyController@editProducts')->name('company.profile.products');
+Route::post('/profile/products/new', 'CompanyController@newProduct')->name('company.profile.product.new');
+Route::post('/profile/products', 'CompanyController@delProduct')->name('company.profile.product.delete');
+
+Route::post('/products', 'CompanyController@products')->name('company.products');
+
+Route::get('/api/countries', 'CountryController@index');
+Route::get('/api/industries', 'IndustryController@index');
