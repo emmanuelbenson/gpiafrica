@@ -102,7 +102,7 @@
                                             {{ Auth::user()->company->country->name }}/{{ Auth::user()->company->country->region }}
                                         </p>
                                         <p>
-                                            <i class="fa fa-envelope"></i> {{ Auth::user()->email }} <br />
+                                            <i class="fa fa-envelope"></i> {{ Auth::user()->company->email }} <br />
                                             <i class="fa fa-phone"></i> {{ Auth::user()->company->phone }} <br />
                                             <i class="fa fa-globe"></i> {{ Auth::user() ->company->website }}
                                         </p>
