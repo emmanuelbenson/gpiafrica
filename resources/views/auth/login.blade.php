@@ -112,7 +112,9 @@
 <script>
     $(document).ready(function()
     {
-
+       if(localStorage.getItem('usrChoice')){
+                localStorage.removeItem('usrChoice');
+            }
     })
 </script>
 </body>
