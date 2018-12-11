@@ -36,7 +36,7 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <a href="{{ url('/') }}" class="navbar-brand">
-                    <img src="{{ asset('frt-assets/img/logo.svg') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('frt-assets/img/logo.png') }}" alt="" class="img-fluid">
                 </a>
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">Menu<i class="fa fa-bars ml-2"></i></button>
@@ -284,55 +284,10 @@
                     <p class="lead text-muted mt-2">Get Business updates from Experts.<br>We do not spam you.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <form action="#" class="subscription-form mt-5">
-                        <div class="form-group">
-                            <input type="email" name="email" placeholder="Name@company.com" class="form-control">
-                            <button type="submit" class="btn btn-primary">Get Updates</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+
         </div>
     </section>
     <footer class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 mb-5 mb-lg-0">
-                    <div class="footer-logo"><img src="{{ asset('frt-assets/img/logo-footer.svg') }}" alt="..." class="img-fluid"></div>
-                </div>
-                <div class="col-lg-3 mb-5 mb-lg-0">
-                    <h5 class="footer-heading">Site pages</h5>
-                    <ul class="list-unstyled">
-                        <li> <a href="index.html" class="footer-link">Home</a></li>
-                        <li> <a href="faq.html" class="footer-link">FAQ</a></li>
-                        <li> <a href="contact.html" class="footer-link">Contact</a></li>
-                        <li> <a href="text.html" class="footer-link">Text Page</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 mb-5 mb-lg-0">
-                    <h5 class="footer-heading">Product</h5>
-                    <ul class="list-unstyled">
-                        <!--<li> <a href="#" class="footer-link">Why Lysis?</a></li>-->
-                        <li> <a href="#" class="footer-link">Enterprise</a></li>
-                        <li> <a href="#" class="footer-link">Blog</a></li>
-                        <li> <a href="#" class="footer-link">Pricing</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h5 class="footer-heading">We are social</h5>
-                    <ul class="list-unstyled">
-
-                        <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook"></i></a><a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="social-link"><i class="fa fa-youtube-play"></i></a><a href="#" class="social-link"><i class="fa fa-vimeo"></i></a>
-                            <a href="#" class="social-link"><i class="fa fa-pinterest"></i></a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="copyrights">
             <div class="container">
                 <div class="row">
