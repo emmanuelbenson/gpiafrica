@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <!-- BEGIN PORTLET -->
                         <div class="portlet light ">
                             <div class="portlet-title">
@@ -146,7 +146,9 @@
                         </div>
                         <!-- END PORTLET -->
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <!-- BEGIN PORTLET -->
                         <div class="portlet light ">
                             <div class="portlet-title">
@@ -206,7 +208,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -233,7 +235,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -262,7 +266,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -289,7 +293,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -318,7 +324,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -345,7 +351,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -374,7 +382,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -401,7 +409,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -430,7 +440,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
@@ -457,7 +467,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="portlet light ">
                             <div class="portlet-title">
                                 <div class="caption caption-md">
