@@ -160,7 +160,7 @@
     </script>
     <script>
         $(document).ready(function() {
-            $('#industry').select2();
+            
         });
     </script>
 @endsection
