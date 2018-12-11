@@ -216,6 +216,9 @@
                         <div class="hor-menu  ">
                             <ul class="nav navbar-nav">
                                 <li>
+                                    <a href="{{ url('/') }}">Website</a>
+                                </li>
+                                <li>
                                     <a href="{{ url('/home') }}">
                                         Home
                                     </a>
