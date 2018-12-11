@@ -104,7 +104,7 @@
                     <form action="#" class="subscription-form">
                         <!--<div class="form-group">-->
                         <!--<input type="email" name="email" placeholder="Name@company.com" class="form-control">-->
-                        <button type="submit" class="btn btn-primary">Get Started</button>
+                        <a href="{{ url('/register') }}" class="btn btn-primary">Get Started</a>
                         <!--</div>-->
                     </form>
                 </div>
@@ -363,6 +363,13 @@
     </script>
     <script src="{{ asset('frt-assets/vendor/lightbox2/js/lightbox.js') }}"></script>
     <script src="{{ asset('frt-assets/js/front.js') }}"></script>
+    <script>
+      (function(){
+         if(localStorage.getItem('usrChoice')){
+                localStorage.removeItem('usrChoice');
+            }
+      })();
+    </script>
 </body>
 
 </html>
