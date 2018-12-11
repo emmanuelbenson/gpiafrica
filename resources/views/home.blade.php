@@ -159,12 +159,4 @@
             });
         })();
     </script>
-    <script>
-        $(document).ready(function() {
-            $('#industry').select2({
-                placeholder: 'Select sectore',
-                allowClear: true
-            });
-        });
-    </script>
 @endsection
