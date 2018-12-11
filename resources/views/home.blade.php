@@ -150,7 +150,8 @@
                 for(let i in industries){
                     var industry = industries[i]
                     var option = "<option value='"+industry.id+"'>"+industry.title+"</option>"
-                    $('#ind').append(option)
+                    $('#ind').prepend(option)
+
                 }
             }).
             fail(function(err){
@@ -160,7 +161,10 @@
     </script>
     <script>
         $(document).ready(function() {
-            $('#industry').select2();
+            $('#industry').select2({
+                placeholder: 'Select sectore',
+                allowClear: true
+            });
         });
     </script>
 @endsection
