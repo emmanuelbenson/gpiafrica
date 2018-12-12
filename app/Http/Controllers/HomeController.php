@@ -27,7 +27,7 @@ class HomeController extends Controller
     {
         $searchString = request('q') ?: '';
 
-        $companies = Company::orderBy('name')
+        $companies = Company::latest()
             ->when(request('q'), function($query) {
                 $query->where('name', 'like', '%'.request('q').'%')
                     ->orWhere('type', 'like', '%'.request('q').'%')
