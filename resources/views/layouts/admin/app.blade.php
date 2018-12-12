@@ -9,7 +9,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>GPI Africa | @yield('title')</title>
+    <title>GPI MArket Africa | @yield('title')</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -53,8 +53,8 @@
                     <div class="container">
                         <!-- BEGIN LOGO -->
                         <div class="page-logo">
-                            <a href="{{ url('/home') }}">
-                                <img src="{{ asset('bck-assets/layouts/layout3/img/logo-default.jpg') }}" alt="logo" class="logo-default">
+                            <a href="{{ url('/home') }}" class="navbar-brand">
+                                <img src="{{ asset('frt-assets/img/logo.png') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                         <!-- END LOGO -->
