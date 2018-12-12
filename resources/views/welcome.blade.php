@@ -43,6 +43,16 @@
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <!-- Link-->
+                        <li class="nav-item">
+                            <a href="javascript:;" class="nav-link active">
+                                <i class="fa fa-phone"></i> (+234) 8106104664, 7019086155 |
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:;" class="nav-link active">
+                                <i class="fa fa-envelope"></i> hello@gpiafrica.com |
+                            </a>
+                        </li>
                         <li class="nav-item"> <a href="{{ url('/home') }}" class="nav-link active">Home</a></li>
                         <!-- Link-->
                         <!--<li class="nav-item"> <a href="faq.html" class="nav-link">FAQ</a></li>-->
@@ -50,13 +60,13 @@
                         <!--<li class="nav-item"> <a href="contact.html" class="nav-link">Contact</a></li>-->
                         <!--&lt;!&ndash; Link&ndash;&gt;-->
                         <!--<li class="nav-item"> <a href="text.html" class="nav-link">Text Page</a></li>-->
-                        <li class="nav-item dropdown">
-                            <a id="pages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Resources</a>
-                            <div class="dropdown-menu"><a href="javascript:;" class="dropdown-item">FAQ</a>
-                                <a href="javascript:;" class="dropdown-item">Contact</a>
-                                <a href="javascript:;" class="dropdown-item">Text Page</a>
-                            </div>
-                        </li>
+                        {{--<li class="nav-item dropdown">--}}
+                            {{--<a id="pages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Resources</a>--}}
+                            {{--<div class="dropdown-menu"><a href="javascript:;" class="dropdown-item">FAQ</a>--}}
+                                {{--<a href="javascript:;" class="dropdown-item">Contact</a>--}}
+                                {{--<a href="javascript:;" class="dropdown-item">Text Page</a>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
                     </ul>
                     <a href="{{ url('/login') }}" class="btn btn-primary navbar-btn ml-0 ml-lg-3">Login </a>
                     &nbsp;/&nbsp;
