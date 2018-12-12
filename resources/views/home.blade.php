@@ -91,37 +91,43 @@
                     <div class="portlet-title">
                         <div class="caption">
                             <i class="icon-edit font-dark"></i>
-                            <span class="caption-subject font-dark bold uppercase">Notes</span>
+                            <span class="caption-subject font-dark bold uppercase">News</span>
                         </div>
                         <div class="actions">
-                            <a class="btn btn-circle btn-icon-only btn-default" href="javascriptt:;">
-                                <i class="icon-cloud-upload"></i>
-                            </a>
-                            <a class="btn btn-circle btn-icon-only btn-default" href="javascriptt:;">
-                                <i class="icon-wrench"></i>
-                            </a>
-                            <a class="btn btn-circle btn-icon-only btn-default fullscreen" href="javascriptt:;"> </a>
-                            <a class="btn btn-circle btn-icon-only btn-default" href="javascriptt:;">
-                                <i class="icon-trash"></i>
-                            </a>
+
                         </div>
                     </div>
                     <div class="portlet-body">
                         <div class="note note-success">
-                            <h4 class="block">Success! Some Header Goes Here</h4>
-                            <p> Duis mollis, est non commodo luctus, nisi erat mattis consectetur purus sit amet porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. </p>
+                            <h4 class="block">Heirs Holdings Signs $600m loans with Afrexim Bank</h4>
+                            <p>
+
+                                Cairo (Egypt) — As a further demonstration of the African Export – Import Bank’s (“Afrexim”) mandate to facilitate the growth of intra-Africa trade and support the development of African businesses, Afrexim today, signed financing facilities totaling US$600 million with the Heirs Holdings Group, a pan-African proprietary investment holding company.
+                            </p>
                         </div>
                         <div class="note note-info">
-                            <h4 class="block">Info! Some Header Goes Here</h4>
-                            <p> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, mattis consectetur purus sit amet eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. </p>
+                            <h4 class="block">First Intra-African Trade Fair Opens, With Call for Initiatives That Drive AfCFTA</h4>
+                            <p>
+                                The first-ever Intra-African Trade Fair (IATF) to be held on the continent opened today in Cairo with the President of the African Export-Import Bank (Afreximbank), Prof. Benedict Oramah, calling for the implementation of initiatives that will add meaning to that African Continental Free Trade Agreement (AfCFTA).
+                            </p>
                         </div>
                         <div class="note note-danger">
-                            <h4 class="block">Danger! Some Header Goes Here</h4>
-                            <p> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit mattis consectetur purus sit amet.\ Cras mattis consectetur purus sit amet fermentum. </p>
+                            <h4 class="block">China Eximbank Delegation Visits Afreximbank</h4>
+                            <p>
+                                A delegation from the Export-Import Bank of China (China Eximbank) led by Chairperson HU Xiaolian, visited the African Export-Import Bank (Afreximbank) today for discussions on collaboration between the two institutions.
+                            </p>
+                            <p>
+                                Receiving the delegation, Afreximbank President Prof. Benedict Oramah said that the Bank considered China Eximbank a very strong partner in many areas, including in raising funds internationally and in implementing projects across Africa.
+                            </p>
                         </div>
                         <div class="note note-warning">
-                            <h4 class="block">Warning! Some Header Goes Here</h4>
-                            <p> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit mattis consectetur purus sit amet. Cras mattis consectetur purus sit amet fermentum. </p>
+                            <h4 class="block">Central African Republic Formalises Afreximbank Membership, Deposits Ratification Document</h4>
+                            <p>
+                                Central African Republic today in Cairo formalised its membership of the African Export-Import Bank (Afreximbank) with the deposit of the instrument of the country’s ratification of the Bank’s Establishment Agreement with the continental trade finance institution.
+                            </p>
+                            <p>
+                                Speaking during a ceremony at the Bank’s headquarters, Claude Rameaux Bireau, Minister of State and Economic Adviser to the President, who led a five-member delegation, said that Central African Republic had very high expectations from Afreximbank and looked forward to strengthened cooperation with the institution.
+                            </p>
                         </div>
                     </div>
                 </div>
