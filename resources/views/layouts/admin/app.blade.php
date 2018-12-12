@@ -39,7 +39,7 @@
 
     @yield('styles')
     <!-- END THEME LAYOUT STYLES -->
-    <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <link rel="shortcut icon" href="{{ asset('frt-assets/img/favicon.png') }}">
 <!-- END HEAD -->
 
 <body class="page-container-bg-solid page-md">
