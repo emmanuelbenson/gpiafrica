@@ -43,16 +43,6 @@
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <!-- Link-->
-                        <li class="nav-item">
-                            <a href="javascript:;" class="nav-link active">
-                                <i class="fa fa-phone"></i> (+234) 8106104664, 7019086155 |
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="javascript:;" class="nav-link active">
-                                <i class="fa fa-envelope"></i> hello@gpiafrica.com |
-                            </a>
-                        </li>
                         <li class="nav-item"> <a href="{{ url('/home') }}" class="nav-link active">Home</a></li>
                         <!-- Link-->
                         <!--<li class="nav-item"> <a href="faq.html" class="nav-link">FAQ</a></li>-->
@@ -298,6 +288,29 @@
         </div>
     </section>
     <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-5 mb-lg-0">
+                    <h5 class="footer-heading">Contacts</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="javascript:;" class="footer-link">
+                                <strong>Sales:</strong> <br />
+                                <i class="fa fa-phone"></i> (+234) 8106104664, <br />
+                                <strong>Tech Support:</strong> <br />
+                                <i class="fa fa-phone"></i> (+234) 7019086155
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="footer-link">
+                                <i class="fa fa-envelope"></i> hello@gpiafrica.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
         <div class="copyrights">
             <div class="container">
                 <div class="row">
