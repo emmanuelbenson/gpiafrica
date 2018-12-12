@@ -303,7 +303,7 @@
                         </li>
                         <li>
                             <a href="javascript:;" class="footer-link">
-                                <i class="fa fa-envelope"></i> hello@gpiafrica.com
+                                <i class="fa fa-envelope"></i> hello@my-gpisuite.com
                             </a>
                         </li>
                     </ul>
