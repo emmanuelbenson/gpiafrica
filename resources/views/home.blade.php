@@ -18,8 +18,8 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <div class="input-group input-group-lg">
-                                    <select name="ind" id="ind" class="form-control select2">
-                                        <option value="">Search by sector</option>
+                                    <select class="form-control select2lg" name="ind" id="ind">
+                                        <option value="">Filter by sector...</option>
                                     </select>
                                 </div>
                             </div>
@@ -133,7 +133,6 @@
 
 @section('scripts')
     <script src="{{ asset('bck-assets/global/plugins/select2/js/select2.full.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('bck-assets/pages/scripts/components-select2.min.js') }}" type="text/javascript"></script>
     <script>
         (function(){
             if(localStorage.getItem('usrChoice')){

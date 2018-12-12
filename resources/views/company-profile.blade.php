@@ -166,10 +166,10 @@
                             <div class="portlet-body">
                                 <div class="row number-stats margin-bottom-30">
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                        @forelse($company->countriesWhereProductsAreOffered as $country)
-                                            <i class="fa fa-check-circle-o"></i> {{ $country }} <br/>
+                                        @forelse(Auth::user()->company->countriesWhereProductsAreOffered as $consumerCountry)
+                                            <i class="fa fa-check-circle-o"></i> {{ $consumerCountry->countries[0]->name }} <br/>
                                         @empty
-                                            <h4>N/A</h4>
+                                            <h4>N/As</h4>
                                         @endforelse
                                     </div>
                                 </div>

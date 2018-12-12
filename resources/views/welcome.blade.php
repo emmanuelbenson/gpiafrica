@@ -262,7 +262,7 @@
         <div class="container text-center text-lg-left">
             <div class="row align-items-center">
                 <div class="col-lg-7">
-                    <h2 class="divider-heading">How Lysis works</h2>
+                    <h2 class="divider-heading">How GPI Market Africa works</h2>
                     <div class="row">
                         <div class="col-lg-10">
                             <p class="lead divider-subtitle mt-2 text-muted">Our Team of professionals are highly skilled experts in strategic management, leadership and

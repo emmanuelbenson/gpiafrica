@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="inputs">
                                     <div class="portlet-input input-inline input-small ">
-                                        <a href="javascript:;" class="btn btn-sm yellow pull-right">
+                                        <a href="{{ url('/profile/service-countries') }}" class="btn btn-sm yellow pull-right">
                                             <i class="fa fa-plus"></i> Add
                                         </a>
                                     </div>
@@ -173,8 +173,8 @@
                             <div class="portlet-body">
                                 <div class="row number-stats margin-bottom-30">
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                        @forelse(Auth::user()->company->countriesWhereProductsAreOffered as $country)
-                                            <i class="fa fa-check-circle-o"></i> $country <br/>
+                                        @forelse(Auth::user()->company->countriesWhereProductsAreOffered as $consumerCountry)
+                                            <i class="fa fa-check-circle-o"></i> {{ $consumerCountry->countries[0]->name }} <br/>
                                         @empty
                                             <h4>You have not listed countries</h4>
                                         @endforelse
