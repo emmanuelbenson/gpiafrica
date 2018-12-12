@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\ConsumerCountry;
 use App\Industry;
 use Illuminate\Http\Request;
 use App\Company;
@@ -136,5 +137,38 @@ class CompanyController extends Controller
                 'c_id' => $company->id,
                 'p' => $product
             ], 500);
+    }
+
+    public function serviceCountries()
+    {
+        $countries = Country::all();
+
+        $consumerCountries = ConsumerCountry::where('company_id', \Auth::user()->company->id)
+            ->get();
+
+        return view('edits.service-countries', compact(['countries', 'consumerCountries']));
+    }
+
+    public function addCountries(Request $request)
+    {
+        $selCountries = $request->get('selectedCountries');
+
+        $truthArray = [];
+
+        for($i=0; $i < count($selCountries); $i++){
+            if(ConsumerCountry::where('country_id', $selCountries[$i])->first()){
+                $truthArray[$selCountries[$i]] = 'already exist';
+            }else{
+                ConsumerCountry::create([
+                    'company_id' => \Auth::user()->company->id,
+                    'country_id' => $selCountries[$i],
+                    'product_id' => 0
+                ]);
+            }
+        }
+
+        return response()
+            ->json($truthArray);
+
     }
 }
